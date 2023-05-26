@@ -1,0 +1,278 @@
+.movieDetails_container {
+    /* height: 100vh; */
+    /* background-color: #020d18; */
+    width: 100%;
+    color: white;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.movieDetail {
+    height:  598px;
+    width: 80%;
+    /* padding-top: 10rem; */
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 5rem;
+
+}
+
+.heading_container span {
+    font-size: 2rem;
+    color: #4f5b68;
+}
+.movie-ratingSpan{
+    color: skyblue;
+    margin-left: 1rem;
+}
+.heading_container h1 {
+    font-size: 5rem;
+    font-family: 'Dosis';
+    font-weight: bold;
+    /* margin-top: 4rem; */
+}
+.image_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #0c1c2c;
+    padding: 1rem;
+}
+.trailer-btn{
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    background-color: #dd003f;;
+    padding: 3px 25px;
+    font-weight: bold;
+
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    
+}
+.trailer-btn img{
+    height: 2rem !important;
+}
+.image_container img {
+    height: 45rem;
+}
+
+.top_container {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 1.4rem;
+    
+}
+
+
+.rating_container p {
+    font-size: 2rem;
+}
+
+.genre {
+    flex-grow: 2;
+
+}
+
+.genre span {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-inline: 0.5rem;
+    /* color: #4183C4; */
+    text-decoration: none;
+    padding: 0.4rem;
+    border-radius: 4px
+}
+
+.genre-action {
+    background-color: #f5b50a;
+    padding: 0.4rem;
+    border-radius: 4px;
+}
+
+.genre-drama {
+    background-color: green;
+
+}
+
+.genre-comedy {
+    background-color: #a6bb16;
+}
+
+.genre-sci-fi {
+    background-color: #1692bb;
+}
+
+.genre-crime {
+    background-color: rgba(255, 0, 0, 0.789);
+}
+
+.genre-romance {
+    background-color: #F62681;
+}
+
+.genre-animation {
+    background-color: #FFC107;
+}
+
+.genre-thriller {
+    background-color: #FF5733;
+}
+
+.genre-family {
+    background-color: #00796B;
+}
+
+.genre-fantasy {
+    background-color: #8E24AA;
+}
+.movie-rating{
+    border-top:2px solid #4f5b68 ;
+    border-bottom:2px solid #4f5b68 ;
+    padding: 1rem;
+}
+.rating_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    /* height: 100vh; */
+}
+
+.add_to_favourites_btn{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+    
+}
+.add_to_favourites_btn a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #dd003f;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 35px;
+    
+    
+}
+.add_to_favourites_btn img{
+    height: 4rem;
+    border: 1px solid #dd003f;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+
+.second_container{
+    background-color: #020d18;
+    padding-top:8rem ;
+    padding-bottom:8rem ;
+    
+    
+}
+.overview-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.overview-heading{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.overView{
+    color: #bcbfc2;
+    font-size: 2.5rem;
+    word-wrap: break-word;
+    /* background-color: rebeccapurple; */   
+
+}
+.overview-cast{
+    display: flex;
+    gap: 2.5rem;
+
+}
+.overviewheading-para{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.cast-container{
+    color: white;
+    width: 30%;
+    /* padding: 1rem; */
+}
+.cast_list{
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.7rem;
+    gap: 1.5rem;
+}
+.person_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+.cast{
+    border-bottom:2px solid #F62681 ;
+    margin-bottom: 0.5rem;
+}
+.overview{
+    border-bottom: 2px solid #FFC107;
+}
+.person_list h2{
+    color: #4280bf;
+    
+}
+.character{
+    color: #abb7c4;
+}
+.cast_list img{
+    width: 5rem ;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review-container{
+    color: white;
+    font-size: 2rem;
+    margin-top:3rem ;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    /*  */
+    /* align-items: center; */
+
+}
+.review-card-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+
+.reviews{
+    margin-bottom: 1rem;
+    border-bottom: 0.2rem solid green;
+}

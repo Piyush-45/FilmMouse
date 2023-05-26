@@ -1,0 +1,32 @@
+.review-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+}
+.top_part{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.name{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: none;
+}
+.content{
+    font-size: 1.4rem;
+    color: #abb7c4;
+}
+.top_part img{
+    width: 5rem;
+}
+.content{
+    font-size:1.6rem;
+}
+.bottom_part a{
+    margin-left: 1rem;
+    cursor: pointer;
+    color: red;
+}

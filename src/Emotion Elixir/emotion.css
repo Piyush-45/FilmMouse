@@ -1,0 +1,53 @@
+
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+.emotion-container {
+    background-color: #020d18;
+    /* height: 90vh; */
+    overflow: hidden;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color: white;
+}
+.emotion-container p{
+    font-size: 2rem;
+}
+h2 {
+    font-size: 2.4rem;
+    /* color: #dcf836; */
+    color: #abb7c4;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-top: 2rem; */
+    /* padding: 10rem; */
+}
+.inhall h1{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    /* margin-left: 1rem; */
+}
+
+label{
+    font-size: 2rem;
+}
+
+select{
+    width: fit-content;
+    padding: 0.5rem 0.7rem;
+
+    align-items: center;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+    text-align: left;
+
+}
+.emotion-span{
+    color: #dd003f;
+}

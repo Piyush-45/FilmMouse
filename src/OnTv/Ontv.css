@@ -1,0 +1,10 @@
+.heading_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-all {
+    color: blue;
+cursor: pointer;
+    text-decoration: underline;
+}

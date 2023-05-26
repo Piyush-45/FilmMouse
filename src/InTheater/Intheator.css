@@ -1,0 +1,33 @@
+
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+.inhall {
+    /* overflow: hidden; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* font-family: 'Dosis'; */
+    /* padding: 1rem ; */
+}
+.inhall h1{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    /* margin-left: 1rem; */
+}
+/* .custom-dots ul{
+    display: flex;
+
+}
+.custom-dots li button:before {
+    color: yellow;
+}
+
+.custom-dots {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+} */

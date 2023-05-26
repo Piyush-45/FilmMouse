@@ -1,0 +1,66 @@
+.hero {
+    width: 100%;
+}
+
+.movies-list {
+    /* margin-top: 1rem; */
+    width: 100%;
+    height: fit-content;
+    /* margin-bottom: 1rem; */
+    padding: 1rem;
+}
+
+.movie-card {
+    position: relative;
+    height: 100%;
+    padding: 1rem;
+    /* margin-inline: 1rem; */
+}
+
+
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-bottom: 5rem;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    font-weight: bold;
+    /* background: #cecece; */
+    /* transition: 50s all ease-in-out; */
+
+}
+
+h3 {
+    font-size: 1.8rem;
+
+}
+
+.movie-details__ratings {
+    font-size: 1.2rem;
+}
+
+.image img {
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    /* set the initial background color to transparent */
+    transition: background-color 0.5s ease;
+    /* add a transition effect to the background color */
+}
+
+.movie-card:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* set the background color to the color you want on hover */
+    cursor: pointer;
+}

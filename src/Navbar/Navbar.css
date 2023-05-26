@@ -1,0 +1,208 @@
+nav {
+    z-index: 999;
+    width: 90%;
+    margin: 0 auto;
+    /* position: s; */
+/* width: ; */
+
+}
+
+span {
+    color: red;
+}
+
+:root {
+    --primary-color: #abb7c4;
+    --hover-yellow-color: #dcf836;
+    --color-pink:#dd003f;
+}
+.navbar__container{
+    padding: 1rem;
+}
+.input {
+    /* border: none;
+    border-radius: 0px;
+    background-color: var(--color-black-light);
+    color: #fff;
+    padding: 2px 10px;
+    font-weight: 400;
+    font-weight: 16px;
+    width: 40%;
+    border: 1px solid var(--color-grey-light);
+    box-shadow: 0 24px 48px -15px rgba(153, 161, 170, 0.25);
+    border-radius: 1.5rem; */
+    height: 46px;
+    border: none;
+    background-color: #233a50 !important;
+    font-family: 'Nunito', sans-serif;
+    font-size: #abb7c4;
+    color: #abb7c4;
+    font-weight: 300;
+    text-transform: none;
+    padding-inline: 3rem;
+    margin-top: 1rem;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Dosis';
+    text-transform: uppercase;
+    /* background: red; */
+    padding-top: 2rem;
+}
+
+
+.navbar__logo p {
+    font-size: 5rem;
+    font-family: Mova;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    font-size: 2rem;
+    /* width: 100%; */
+
+
+
+}
+
+.nav__list a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.nav__input {
+    /* background-color: transparent;
+    border: none;
+    /* width: 40vw; */
+    /* color: white; */ 
+    height: 46px;
+    border: none;
+    background-color: #233a50 !important;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    color: #abb7c4;
+    font-weight: 300;
+    text-transform: none;
+    width: 100%;
+}
+
+.nav__input:focus {
+    outline: none;
+}
+
+.search__icon {
+    cursor: pointer;
+}
+
+.nav__list ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5rem;
+
+}
+
+ul li {
+    cursor: pointer;
+
+}
+
+ul li a:hover {
+    color: var(--hover-yellow-color);
+    transition: var(--transition);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 500;
+    text-align: center;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    cursor: pointer;
+
+}
+
+.login,
+.signup {
+    /* padding: 5px 10px;
+    border-radius: 3px;
+    border: 2px solid var(--color-p);
+    border-radius: 8px;
+    color: var(--color-white); */
+}
+
+.signup {
+    /* border: 2px solid var(--color-primary); */
+}
+
+.signup:hover {
+    /* background-color: var(--color-primary);
+    transition: var(--transition);
+    color: white; */
+}
+
+.login:hover {
+    /* background-color: var(--color-pink);
+    /* transition: 0.5s all ease-in; */
+    transition: var(--transition);
+    color: white; */
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+    /* Change flex direction to column to stack the logo and menu on top of each other */
+    flex-direction: column;
+    }
+    
+    .navbar__logo {
+    /* Add margin to the logo to create space between it and the menu */
+    margin-bottom: 10px;
+    }
+    
+    .nav__right {
+    /* Change flex direction to column to stack the search bar and menu on top of each other */
+    flex-direction: column;
+    }
+    
+    .input--search {
+    /* Remove the margin to bring the search bar closer to the menu */
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    
+    .nav__list ul {
+    /* Change flex direction to column to stack the menu items on top of each other */
+    flex-direction: column;
+    }
+    
+    .nav__list li {
+    /* Add margin to the menu items to create space between them */
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    }
+    
+    @media only screen and (max-width: 480px) {
+    .nav__input {
+    /* Increase the width of the search input to make it easier to use on smaller screens */
+    width: 200px;
+    }
+    }

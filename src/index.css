@@ -1,0 +1,145 @@
+/* dosis regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+@import '../node_modules/slick-carousel/slick/slick.css';
+@import '../node_modules/slick-carousel/slick/slick-theme.css';
+
+/* Add your custom styles here */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Dosis';
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --color-primary: #F5CF49;
+  --color-purple: #A958A5;
+
+  --color-white: #ffffff;
+  --color-black: #111111;
+  --color-black-light: #242424;
+  --color-grey-light: #DFDFDF;
+  --color-semi-grey: #9F9F9F;
+  --color-grey: #A4A4A4;
+  --color-medium-grey: #999999;
+  --color-dark-grey: #616161;
+  --color-darker-grey: #787878;
+  --color-grey-normal: #868686;
+  --color-grey-light: #cecece;
+  --font-primary: "Noir Pro";
+  --font-sec: "Poppins", sans-serif;
+  --font-Noir-Pro-Bold: "Noir Pro Bold";
+  --font-Noir-Pro-semiBold: "Noir Pro Semi Bold";
+  --font-Noir-Pro-Light: "Noir Pro Light";
+  --transition: all 0.3s ease-in-out;
+  --font-body-1: 18px;
+  --font-body-2: 16px;
+  --font-body-3: 14px;
+  --font-body-4: 12px;
+  --line-height-b1: 1.5;
+  --line-height-b3: 1.1;
+  --h1: 80px;
+  --h2: 64px;
+  --h3: 48px;
+  --h4: 32px;
+  --h5: 24px;
+  --h6: 20px;
+}
+
+
+.main__container {
+  background-image: url('http://busterhtml.mbkip3ms9u-e92498n216kr.p.temp-site.link/images/uploads/slider-bg.jpg');
+  color: white;
+  width: 100%;
+}
+
+.next_container {
+  background-color: #020d18;
+  width: 100%;
+  padding: 1rem;
+  
+}
+
+.hero_container {
+  width: 90%;
+  margin: 0 auto;
+}.toast-message {
+  font-size: 2rem;
+}
